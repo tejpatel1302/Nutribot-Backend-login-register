@@ -3,10 +3,11 @@
   "version": "1.0.0",
   "description": "A basic started boilerplate project for node",
   "main": "index.js",
-  "scripts": {
-    "dev": "npx nodemon src/index.js"
-  },
-  "author": "Sanket",
+ "scripts": {
+  "dev": "npx nodemon src/index.js",
+  "start": "node src/index.js"
+},
+  "author": "Tej",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.1.1",
